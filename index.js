@@ -1,15 +1,13 @@
 var num1;
 var num2;
 var res;
-var results;
+var result;
 
 document.addEventListener("DOMContentLoaded", function(){
 	num1 = document.getElementById("num1");
 	num2 = document.getElementById("num2");
 	res = document.getElementById("result");
-	console.log(num1);
-	console.log(num2);
-	console.log(res);
+
 });
 
 function add(num1, num2){
